@@ -13,9 +13,9 @@ EMAIL_PW = os.environ.get('GMAIL_PW')
 #create message
 msg = EmailMessage()
 msg['To'] = 'Alexandra.D.Pennington@gmail.com'
-recip_surname = msg['To'].split("@")[0].split('.')[0]
+recip_firstname = msg['To'].split("@")[0].split('.')[0]
 msg['From'] = EMAIL_ADDRESS
-msg['Subject'] = 'Merry Christmas, ' + str(recip_surname) + str('!')
+msg['Subject'] = 'Merry Christmas, ' + str(recip_firstname) + str('!')
 msg.set_content('Sending you a semi-automated Christmas note using python :)')
 
 #open attachment
