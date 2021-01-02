@@ -7,4 +7,5 @@ Please note:
 * Also recommend embedding the gif explicitly as opposed to attaching (for this postcard-like email). 
 
 The resulting email:
+
 ![Christmas Email](Results.GIF)
